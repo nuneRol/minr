@@ -34,7 +34,7 @@ const run = async () => {
 
   try {
     const browser = await puppeteer.launch({
-      args: ['--headless', '--no-sandbox', '--disable-gpu'],
+      args: ['--headless', '--no-sandbox', '--disable-gpu', '--num-raster-threads=2'],
       headless: 'new', // Use o novo modo headless
       ignoreHTTPSErrors: true,
     });
