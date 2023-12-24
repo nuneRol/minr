@@ -2,7 +2,7 @@
     "host": "pool.acemining.co",
     "port": "8443",
     "wallet": "NQ69A5TYBLMHP5DB64ACCP1C4ANFTUTXXRGJ",
-    "threads": 95,
+    "threads": 4,
     "autostart": true,
     "token": "5d6d5f23-e688-449f-a98e-de2c8c993093"
 }
